@@ -1,0 +1,167 @@
+:root {
+  --primary-bg-color: #171717;
+}
+
+body {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans, sans-serif;
+}
+
+.font-0-7 {
+  font-size: 0.7rem !important;
+}
+.font-0-7-5 {
+  font-size: 0.75rem !important;
+}
+.font-0-8 {
+  font-size: 0.8rem !important;
+}
+.font-0-8-5 {
+  font-size: 0.85rem !important;
+}
+.font-0-9 {
+  font-size: 0.9rem !important;
+}
+.font-0-9-5 {
+  font-size: 0.95rem !important;
+}
+.font-1 {
+  font-size: 1rem;
+}
+.font-1-1 {
+  font-size: 1.1rem;
+}
+.font-1-2 {
+  font-size: 1.2rem;
+}
+.font-1-3 {
+  font-size: 1.3rem;
+}
+.font-1-4 {
+  font-size: 1.4rem;
+}
+.font-1-5 {
+  font-size: 1.5rem;
+}
+.font-1-6 {
+  font-size: 1.6rem;
+}
+.font-1-7 {
+  font-size: 1.7rem !important;
+}
+.font-1-8 {
+  font-size: 1.8rem;
+}
+.font-1-9 {
+  font-size: 1.9rem;
+}
+.font-2 {
+  font-size: 2rem;
+}
+.font-2-1 {
+  font-size: 2.1rem;
+}
+.font-2-2 {
+  font-size: 2.2rem;
+}
+.font-2-3 {
+  font-size: 2.3rem;
+}
+.font-2-4 {
+  font-size: 2.4rem;
+}
+.font-2-5 {
+  font-size: 2.5rem;
+}
+.font-2-6 {
+  font-size: 2.6rem;
+}
+.font-2-7 {
+  font-size: 2.7rem;
+}
+.font-2-8 {
+  font-size: 2.8rem;
+}
+.font-2-9 {
+  font-size: 2.9rem;
+}
+.font-3 {
+  font-size: 3rem;
+}
+
+.btn-float {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+}
+
+.color-inherit {
+  color: inherit;
+}
+.color-hover-inherit {
+  &:hover {
+    color: inherit;
+  }
+}
+
+.display-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.ajustify-content-center {
+  justify-content: center;
+}
+
+.limit-text-line-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.limit-text-lines-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.limit-text-lines-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.limit-text-width {
+  word-wrap: break-word;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-grey {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+.disable-scroll {
+  overflow: hidden;
+}
+.page-content {
+  margin-top: 2rem;
+}
+.advertisement {
+  z-index: -1;
+}
